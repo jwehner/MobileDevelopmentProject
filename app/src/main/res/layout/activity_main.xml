@@ -9,4 +9,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.joy.mobiledevelopmentproject.MainActivity">
 
+    <Button
+        android:id="@+id/addButton"
+
+        android:text="@string/addButtonText"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#49B314"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
